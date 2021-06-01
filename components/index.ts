@@ -1,1 +1,6 @@
-export * from './header'
+export * from './Contact'
+export * from './Education'
+export * from './Employment'
+export * from './Header'
+export * from './Projects'
+export * from './Skills'
