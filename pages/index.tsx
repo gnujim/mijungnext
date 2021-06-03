@@ -25,13 +25,21 @@ const theme = {
 export default function Home() {
   return (
     <ThemeProvider theme={theme}>
-      <Preflight />
-      <Header />
-      <Contact />
-      <Employment />
-      <Projects />
-      <Skills />
-      <Education />
+      <div
+        style={{
+          backgroundImage: 'url(/blob.svg)',
+          height: '800px',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        <Preflight />
+        <Header />
+        <Contact />
+        <Employment />
+        <Projects />
+        <Skills />
+        <Education />
+      </div>
     </ThemeProvider>
   )
 }
